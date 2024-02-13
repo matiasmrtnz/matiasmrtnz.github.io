@@ -19,8 +19,8 @@ a:link, a:visited, a:active {
 }
 
 .logo{
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
 }
 
 .productos{
@@ -89,3 +89,18 @@ a:link, a:visited, a:active {
     width: 80% !important;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .footer{
+
+        background-color: #3F4D59;
+        color: white;
+        height: auto
+        
+    }
+    .logo{
+        height: 200px;
+        width: 200px;
+    }
+
+  }

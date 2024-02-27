@@ -1,0 +1,61 @@
+
+@import '../base/variables';
+
+footer{ 
+    background-color: #3F4D59;
+    color: white;
+    height: auto;
+    a{
+        color: rgb(155, 151, 151);
+        &:link, &:visited, &:active {
+            text-decoration:none;
+        }
+    
+    }
+    
+    div {
+        li {
+            margin-bottom: 7px;
+            list-style: none;
+
+
+        }
+    }
+
+    .logo{
+        height: 140px;
+        width: 140px;
+
+        @media (max-width: 768px) {
+            
+            .logo{
+                height: 180px;
+                width: 180px;
+            }
+        }
+    }
+    
+    .copyright{
+        background-color: #2d3842;
+    }
+
+    .horario {
+        color: rgb(155, 151, 151);
+    }
+
+
+    @media (max-width: 768px) {
+
+        height: auto;
+        
+        .logo{
+            height: 180px;
+            width: 180px;
+        }
+    }
+
+    }
+    
+
+
+

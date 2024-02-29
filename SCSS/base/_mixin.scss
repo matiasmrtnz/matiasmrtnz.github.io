@@ -1,0 +1,10 @@
+@mixin products{
+        margin: 30px 0px 0 50px ;
+        padding: 5px 10px 20px 10px;
+        border-radius: 2px;
+        box-shadow: 0px 4px 6px 4px #E9E6EB;
+        height: auto;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+}

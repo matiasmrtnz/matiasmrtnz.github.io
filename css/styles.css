@@ -1,8 +1,3 @@
-/* *{
-  border: 2px solid red;
-} */
-
-
 footer {
   background-color: #3F4D59;
   color: white;
@@ -93,10 +88,19 @@ main section .productos {
   width: 200px;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s;
+}
+main section .productos:hover {
+  transform: scale(1.15);
 }
 main section div .img-thumbnail {
   width: 150px;
   height: 150px;
+}
+main section .description {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

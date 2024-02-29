@@ -1,8 +1,7 @@
+@import '../base/maps';
+@import '../base/mixin';
+
 main{
-
-
-  
-
 
     div{
 
@@ -47,17 +46,13 @@ main{
         }
 
 
-
-        .productos {
-            margin: 30px 0px 0 50px ;
-            padding: 5px 10px 20px 10px;
-            border-radius: 2px;
-            box-shadow: 0px 4px 6px 4px #E9E6EB;
-            height: auto;
-            width: 200px;
-            display: flex;
-            flex-direction: column;
-          }
+        .productos{
+            @include products;
+            transition: all 0.3s;
+            &:hover{
+              transform: scale(1.15)  
+            }
+        }
         
         div{
             .img-thumbnail{
@@ -66,7 +61,11 @@ main{
             }
         }
 
-
+        .description{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
 
     }
 

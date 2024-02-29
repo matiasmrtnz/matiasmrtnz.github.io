@@ -1,12 +1,15 @@
 
 @import '../base/variables';
+@import '../base/maps';
 
 footer{ 
-    background-color: #3F4D59;
-    color: white;
+
+    background-color: map-get($colores, bg-footer );
+    color: map-get($colores, footer1 );
     height: auto;
+    
     a{
-        color: rgb(155, 151, 151);
+        color: map-get($colores, footer2 );
         &:link, &:visited, &:active {
             text-decoration:none;
         }
@@ -36,7 +39,7 @@ footer{
     }
     
     .copyright{
-        background-color: #2d3842;
+        background-color: map-get($colores ,bg-copy);
     }
 
     .horario {

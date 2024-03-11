@@ -1,5 +1,3 @@
-
-
 footer {
   width: 100%;
   background-color: #3F4D59;
@@ -45,9 +43,6 @@ footer .horario {
 header {
   width: 100%;
   background-color: rgb(252, 252, 39);
-}
-header .allhead {
-  width: 100%;
 }
 header .search {
   width: 95%;

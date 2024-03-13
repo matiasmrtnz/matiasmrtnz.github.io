@@ -1,5 +1,3 @@
-
-
 footer {
   width: 100%;
   background-color: #3F4D59;
@@ -63,7 +61,14 @@ header .logo {
   height: 140px;
   width: 140px;
 }
+header .listcompras {
+  display: flex;
+  flex-direction: row;
+}
 
+main div ul {
+  width: 295px;
+}
 main div ul li {
   list-style: none;
   padding-left: 20px;
@@ -78,7 +83,7 @@ main div ul li a:hover {
   color: red;
 }
 main div ul .categoria {
-  width: 250px;
+  width: 270px;
   padding: 8px 0 8px 20px;
   color: white;
 }
@@ -98,7 +103,7 @@ main section .productos {
   transition: all 0.3s;
 }
 main section .productos:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 main section div .img-thumbnail {
   width: 150px;

@@ -5,7 +5,12 @@ main{
 
     div{
 
+
+
         ul{
+
+            width: 295px;
+
             li{
                 list-style: none;
                 padding-left: 20px;
@@ -25,7 +30,7 @@ main{
             }
             .categoria{
 
-                width: 250px;
+                width: 270px;
                 padding: 8px 0 8px 20px;
                 color: white;
             }
@@ -50,7 +55,7 @@ main{
             @include products;
             transition: all 0.3s;
             &:hover{
-              transform: scale(1.15)  
+              transform: scale(1.10)  
             }
         }
         
@@ -68,6 +73,5 @@ main{
         }
 
     }
-
 
 }
